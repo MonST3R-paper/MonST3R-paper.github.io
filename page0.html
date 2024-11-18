@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Results (anonymized)</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <style>
+    body {
+      padding: 2em;
+      font-family: sans-serif;
+    }
+
+    iframe {
+      border-radius: 0.5em;
+      width: 40em;
+      height: 22.5em;
+      border: none;
+      box-shadow: 0 0 1em 0em rgba(0, 0, 0, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      iframe {
+        width: 100%;
+        height: 30em;
+      }
+    }
+
+    a,
+    a:link {
+      color: #777;
+    }
+
+    /* Styles for the instruction icons and text */
+    .instructions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2em;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .instruction-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      font-size: 1.5em;
+    }
+
+    .instruction-item img {
+      width: 36px;
+      height: 36px;
+    }
+  </style>
+  <title>Anonymous Results</title>
+</head>
+
+<body>
+  <!-- Updated prominent message in English -->
+  <p style="text-align: center; font-size: 2em; padding: 0em; font-weight: bold; margin-bottom: 1em;">
+    Real-time reconstruction results of MonST3R (45fps on an RTX4090)
+  </p>
+
+  
+
+  <div id="wrapper" style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+      ">
+    <iframe
+      src="videos/6.mp4"></iframe>
+    <iframe
+      src="videos/5.mp4"></iframe>
+    <iframe
+      src="videos/4.mp4"></iframe>
+    <iframe
+      src="videos/3.mp4"></iframe>
+    <iframe
+      src="videos/2.mp4"></iframe>
+    <iframe
+      src="videos/1.mp4"></iframe>
+  </div>
+</body>
+
+</html>
